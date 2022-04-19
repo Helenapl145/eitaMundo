@@ -1,0 +1,185 @@
+/*Padrão*/
+
+body {
+    background-color: #f4e9fc;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*formulario*/
+.formCadastro {
+    display: block;
+    text-align: center;
+}
+
+.formConteu {
+    display: inline-block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    text-align: left;
+
+    background-color: #bc79ec;
+    height: 620px;
+    width: 500px;
+
+    border-radius: 50px;
+}
+
+.voltaInicio {
+    position: absolute;
+    left: 820px;
+    top: 40px;
+}
+
+.voltaInicio img{
+    height: 20px;
+    width: 30px;
+}
+
+.voltaInicio a{
+    color: white;
+
+    font-weight:lighter;
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+
+    position: absolute;
+    top: 2px;
+    left: 35px;
+
+    text-decoration: none;
+}
+
+.formConteu h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.nome, 
+.email,
+.senha{
+    position: absolute;
+}
+
+.nome label {
+    position: relative;
+    
+    top: 30px;
+    left: 40px;
+
+    color: white;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.nome input{
+    position: relative;
+    top: 60px;
+    right: 10px;
+    width: 420px;
+    height: 40px;
+
+    border-radius: 30px;
+    border: none;
+}
+
+.email label {
+    position: relative;
+    top: 120px;
+    left: 40px;
+
+    color: white;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.email input{
+    position: relative;
+    top: 150px;
+    right: 10px;
+    width: 420px;
+    height: 40px;
+
+    border-radius: 30px;
+    border: none;
+}
+
+.senha label {
+    position: relative;
+    top: 210px;
+    left: 40px;
+    
+    color: white;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.senha input{
+    position: relative;
+    top: 240px;
+    right: 10px;
+    width: 420px;
+    height: 40px;
+
+    border-radius: 30px;
+    border: none;;
+}
+
+.info {
+    position: relative;
+    top: 350px;
+    left: 180px;
+}
+
+.info_button button {
+    background-color: #731ab3;
+    height: 50px;
+    width: 200px;
+
+    border: none;
+    border-radius: 5px;
+    
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+
+    position: absolute;
+    left: -20px;
+
+    cursor: pointer;
+}
+
+.info_h h6{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+
+    font-size: 20px;
+    color: white;
+    font-weight:lighter;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.info_a a{
+    position: absolute;
+    top: 100px;
+    left: 35px;
+    
+    color: #df209f;
+    font-weight:lighter;
+    font-family: 'Ubuntu', sans-serif;
+    
+}

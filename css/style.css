@@ -1,0 +1,373 @@
+/*Configuração padrão*/
+
+body {
+    background-color: #e9d2f9;
+
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+
+/*Navegação primaria*/
+
+nav {
+    position: sticky;
+    display: flex;
+
+}
+
+.logo{
+    width: 130px;
+    height: 120px;
+
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.botoes {
+    margin-top: 40px;
+    margin-left: 100px;
+   
+}
+
+.botoes a {
+    color: white;
+
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.botoes button {
+    background-color: #561188;
+
+    width: 200px;
+    height: 40px;
+
+    border-radius: 10px;
+
+    margin-left: 50px;
+}
+
+
+.usuario {
+    margin-left: 120px;
+    margin-top: 35px;
+}
+
+
+.cadastro {
+    color: #561188;   
+
+    position: relative;
+    top: -28px;
+
+    margin-right: 20px;
+
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.circuloPerfil {
+    position: relative;
+    height: 70px;
+    margin-top: -10px;
+}
+
+.perfil {
+    position: absolute;
+    right: 36px;
+    top: 50px;
+}
+
+.perfil a {
+    color: #561188;
+
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/*Conteúdo*/
+
+.intro p{
+    text-align: center;
+    font-size: 25px;
+
+    width: 600px;
+
+    margin-left: 400px;
+    margin-top: 05px;
+    
+    margin-bottom: 0;
+}
+
+.intro h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 570px;
+
+    color: #561188;
+    font-size: 45px;
+}
+
+.intro h2 {
+    margin-top: 30px;
+    margin-left: 620px;
+
+    color: #a649e9;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.passos {
+    display: flex;
+    justify-content: center;
+
+    margin-left: 120px;
+    margin-top: 0px;
+    margin-right: 100px;
+}
+
+.passos img {
+    height: 240px;
+    width: 250px;
+}
+
+.cadastre {
+    background-color: #B073FF;
+    height: 50px;
+    width: 200px;
+
+    border-radius: 10px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+
+    margin-top: -20px;
+    margin-left: 1100px;
+}
+
+.cadastre a{
+    color: white;
+}
+
+
+/*Planos*/
+
+.parteSecudaria {
+    background-color: #bc79ec;
+    
+}
+
+
+.nomePlanos,
+.nomeDoacao{
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', sans-serif;
+
+    margin-top: 20px;
+    padding-top: 75px;
+}
+
+
+.partePlanos {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    gap: 200px;
+}
+
+.botaoPlanos{
+    display: flex;
+    justify-content: center;
+
+    gap: 200px;
+
+    margin-top: 10px;
+}
+
+.botaoPlanos a{
+    color: white;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.botaoPlanos button{
+    background-color: #731ab3;
+    height: 40px;
+    width: 200px;
+
+    border-radius: 43px;
+
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+/*Doação*/
+
+.parteDoacao{
+    display: flex;
+}
+
+
+.parteDoacao img{
+    height: 500px;
+    width: 1000px;
+}
+
+.parteDoacao p {
+    margin-top: 150px;
+    padding-bottom: 150px;
+
+    font-size: 30px;
+    color: white;
+}
+
+.parteDoacao button{
+    margin-right: 50px;
+    margin-top: 350px;
+
+    background-color: #731ab3;
+    height: 40px;
+    width: 600px;
+
+    border-radius: 43px;
+
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.parteDoacao a{
+    color: white;
+}
+
+
+/*Rodapé*/
+
+footer a{
+    margin-left: 10px;
+    margin-top: 50px;
+
+    text-decoration: none;
+    color: #731ab3;
+}
+
+#rodape{
+    position: absolute;
+    display: flex;
+    margin-left: 100px;
+    
+}
+
+.redes{
+    margin-left: 50px;
+}
+
+.redes h5{
+    width: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.insta {
+    margin-right: 20px;
+    margin-top: -15px;
+}
+
+.insta img{
+    height: 30px;
+    width: 30px;
+}
+
+.face {
+    margin-top: -40px;
+    
+}
+
+.face img{
+    margin-left: 50px;
+    height: 40px;
+    width: 45px;
+}
+    
+
+.emailContato {
+    margin-left: -200px;
+    margin-top: 170px;
+    font-size: 18px;
+}
+
+.contato p{
+    width: 300px;
+}
+
+footer p{
+    margin-left: -200px;
+}
+
+.formulario {
+    margin-left: 500px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.formulario h4{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.parteNome{
+    margin-bottom: 10px;
+}
+
+.parteNome label,
+.parteMensa label{
+    padding-right: 200px;
+}
+
+.parteNome input{
+    width: 250px;
+    margin-top: 5px;
+}
+
+.parteMensa textarea{
+    margin-top: 10px;
+    
+}
+
+.botaoForm{
+   margin-left: 200px;
+}

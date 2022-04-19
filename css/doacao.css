@@ -1,0 +1,85 @@
+/*Configuração padrão*/
+
+body{
+    background-color: #F8EAFF;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Logo*/
+
+header img{
+    width: 130px;
+    height: 120px;
+
+    margin: 20px;
+}
+
+/*Título*/
+header h1{
+    
+    margin-top: -50px;
+    margin-bottom: 0;
+
+    color: #561386;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/*Video*/
+section iframe{
+    margin-left: 400px;
+    margin-top: 0;
+}
+
+
+/*Informações*/
+section p{
+    width: 400px;
+
+    margin-left: 480px;
+    margin-top: 05px;
+
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+section button{
+    margin-left: 560px;
+
+    height: 30px;
+    width: 250px;
+
+    border: none;
+    border-radius: 4px;
+    background-color: #561188;
+
+    cursor: pointer;
+
+}
+
+section button a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.plano {
+   position: absolute;
+   bottom: 10px;
+   left: 600px;
+
+   color: #731ab3;
+}
