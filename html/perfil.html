@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt_br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,99 +7,82 @@
     <title>Eita Mundo</title>
 
     <link rel="shortcut icon" href="/arquivos/logo4.png" type="image/x-icon">
-
     <link rel="stylesheet" href="/css/perfil.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Secular+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-
 </head>
-
 <body>
-    <div class="conteudo">
 
-        <div class="foto">
-            <img src="/arquivos/foto.png" alt="Foto do perfil">   
-        </div>
+    <main id="content">
 
-        <div class="descricao">
-            <h2>Seus dados</h2>
-
-            <h4>Nome:</h4>
-            <p>Helena Paulino de Lima</p>
-
-            <h4>CPF:</h4>
-            <p>473.832.378-46</p>
-
-            <h4>Endereço:</h4>
-            <p>R Malmequer, N.S das graças, 55043-280, Caruaru-PE</p>
-
-            <button> <a href="#">Editar Perfil</a> </button>
-        </div>
-    
-        <main class="info">
-            
-            <div class="caixa">
-                <img src="/arquivos/caixaBrasil.png" alt="Caixa do mês">
-                <p>Caixa deste mês</p>
+        <nav class="nav-lateral">
+            <div class="foto-usuario">
+                <img src="/arquivos/foto.png" alt="Foto do perfil">
             </div>
 
-            <div class="caixa">
-                <img src="/arquivos/caixaEua.png" alt="Caixa do proximo mês">
-                <p>Caixa do proximo mês</p>
+            <div class="dados">
+                <h2>Seus dados</h2>
+                <div class="dado">
+                  <h4>Nome:</h4>
+                  <p>Helena Paulino de Lima</p>  
+                </div>
+                <div class="dado">
+                    <h4>CPF:</h4>
+                    <p>473.832.378-46</p>
+                </div>
+                <div class="dado">
+                    <h4>Endereço:</h4>
+                    <p>R Malmequer, N.S das graças, 55043-280, Caruaru-PE</p>
+                </div>
+
+                <button class="btn">Editar Perfil</button>
+
             </div>
 
-            <div class="usuario">
-                
-                <section>
+        </nav>
+
+        <section class="info-usuario">
+            <div class="voltar">
+                <a href="index.html"><img src="" alt=""></a>
+            </div>
+            <div class="wraper">
+                <div class="caixas">
+                    <div class="caixa">
+                        <p>Caixa deste mês</p>
+                        <img src="/arquivos/caixaBrasil.png" alt="Caixa do mês">
+                    </div>
+                    <div class="caixa">
+                        <p>Caixa do próximo mês</p>
+                        <img src="/arquivos/caixaEua.png" alt="Caixa do proximo mês">
+                    </div>
+                </div>
+
+                <div class="cartao">
                     <img src="/arquivos/perfil.png" alt="Cartão do usuario">
-                </section>
-
-                <footer class="nivel">
-                    <h3>Formas de aumentar seu nivel</h3>
-    
-                    <img class="compartilhar" src="/arquivos/compartilhado.png" alt="Icone de compartiljar">
-                    <p class="compartilharText"> <a  href="#">Compartilhando</a> </p> 
-    
-                    <img class="doacao" src="/arquivos/doacao.png" alt="Icone de doação">
-                    <p class="doacaoText" > <a href="/html/doacao.html">Doando</a> </p> 
-                </footer>
-            
+                </div>
             </div>
 
-            
-            <form id="formulario" action="">
-
-              
-                <div class="parteTotal">
-                    <h3>Entre em contato</h3>
-                    <div class="parteNome">
+            <div class="contato">
+                <form action="">
+                    <h2>Entre em contato</h2>
+                    <div>
                         <label for="">Seu nome:</label>
                         <input type="text">
                     </div>
-    
-                    <div class="parteMens">
-                        <label for="">Escreva sua mensagem: </label>
-                        <textarea name="areaTexto" id="areaTexto" cols="32" rows="5"></textarea>
+
+                    <div>
+                        <label for="">Escreva sua mensagem:</label>
+                        <textarea name="" id="" cols="32" rows="5"></textarea>
                     </div>
 
-                    <input class="botaoForm" type="button" value="Enviar">
+                    <input class="btn" type="button" value="Enviar">
+                </form>
 
-                    <p>Caso tenha alguma duvida ou problema com os nossos serviços mande uma mensagem para nossa equipe e seja respondido em menos de 24H.</p>
-                </div>
-
-                
-
-            </form>
-            
-
-            <div class="voltaInicio">
-                <img src="/arquivos/enter.png" alt="Icone de enter" href="/html/index.html"> 
-                <a href="/html/index.html">Voltar </a>
+                <p>
+                    Caso tenha alguma duvida ou problema com os nossos serviços mande uma mensagem para nossa equipe e seja respondido em menos de 24h.
+                </p>
             </div>
-            
-        </main>
-    </div>
+        </section>
+
+    </main>
+    
 </body>
 </html>

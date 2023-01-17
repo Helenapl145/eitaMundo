@@ -1,360 +1,127 @@
-/*Configuração padrão*/
+@charset "UTF-8";
 
-body {
-    background-color: #e9d2f9;
-    box-sizing: border-box;
-
+*{
     margin: 0;
     padding: 0;
-
-    overflow-x: hidden;
-    overflow-y: hidden;
-
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Secular One', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    
+    box-sizing: border-box;
 }
 
-/*Conteudo da página*/
 
-.conteudo{
-    display: grid;
-    grid-template-columns: 0.5fr 2fr;
-    grid-template-rows: 20vh 60vh;
-
-    column-gap: 150px;
-    row-gap: 60px;
-
-    grid-template-areas:
-        "f m"
-        "c m";
-
-    margin-top: 4%;
-   
-}
-
-.foto img {
-    
-    grid-area: f;
-
-    margin-left: 150px;
-    width: 70%;
-
-    border-radius: 10px;
-}
-
-.descricao {
+body{
     background-color: #a64de5;
-    color: white;
-
-    grid-area: c;
-
-    width: 70%;
-    margin-left: 150px;
-    border-radius: 10px;
 }
 
-.descricao h2{
-    color: #20cfdf;
-
-    display: flex;
-    justify-content: center;
-
-    margin-bottom: 40px;
-}
-
-.descricao h4 {
-    color: #1d062d;
-
-    margin-left: 10px;
-    margin-bottom: 0;
-    padding: 0;
-}
-
-.descricao p{
-    font-weight: lighter;
-    font-size: 13px;
-
-    padding: 0;
-    margin-top: 0;  
-    margin-left: 10px;
-}
-
-.descricao button{
-    border: none;
-    border-radius: 5px;
-
+.btn{
     background-color: #20cfdf;
-    height: 30px;
-    width: 100px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    position: relative;
-    top: 50px;
-    left: 40px;
-}
-
-.descricao button a{
-    text-decoration: none;
     color: white;
+    border: none;
+    padding-block: 0.5rem;
 
     font-weight: bold;
-}
+    border-radius: 4px;
 
-.conteudo main {
-    background-color: #a64de5;
-
-    grid-area: m;
-    width: 85%;
-    border-radius: 10px;
-}
-
-.info {
-    position: relative;
+    cursor: pointer;
 }
 
 
-.caixa{
+#content{
+    background-color: #731ab3;
+    width: 50%;
+    height: 80vh;
+
+    display: flex;
+    margin: 5rem auto;
+    padding-top: 3rem;
+
+    gap: 3rem;
+
+    border-radius: 30px;
+
+}
+
+.nav-lateral{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+
+    gap: 1rem;
+    
+}
+
+.foto-usuario img{
+    border-radius: 20px;
+    box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.514);
     width: 200px;
-    height: 100px;
+}
 
-    margin-left: 80px;
-    margin-top: 40px;
+.dados{
+    background-color: #561188;
+    color: white;
+
+    width: 200px;
+    height: 60%;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    padding-top: 2rem;
+    padding-inline: 1rem;
+
+}
+
+.dados h2{
+    text-align: center;
+    color: #20cfdf;
+}
+
+.dado h4{
+    color: #20cfdf;
+} 
+
+.dados .btn{
+    margin-top: 2rem;
+}
+
+.info-usuario{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.wraper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .caixa p{
     color: white;
     font-weight: bold;
-
-    position: relative;
-    left: 10px;
-    top: -140px;
 }
 
+.contato{
+    margin-top: 7rem;
+    padding: 2rem;
+    border-radius: 20px;
 
-.usuario{
-    display: flex;
-    margin-top: 40px;
-
-    background-color: #bc79ec;
-    width: 400px;
-    height: 240px;
-    
-    position: absolute;
-    top: 0px;
-    left: 344px;
-}
-
-.usuario section img {
-    width: 360px;
-}
-
-.nivel h3{
-    color:#390d59;
-    font-size: 15px;
-
-    margin-top: 180px;
-    margin-left: -330px;
-     
-}
-
-.nivel img{
-    height: 25px;
-}
-
-.compartilhar{
-    margin-top: -10px;
-    margin-left: -310px;
-}
-
-.compartilharText{
-    margin-top: -23px;
-    margin-left: -280px;
-
-    font-size: 15px;
-}
-
-.compartilharText a {
-    color: white;
-    text-decoration: none;
-}
-
-.doacao{
-    position: relative;
-    top: -35px;
-    left: -150px;
-}
-
-.doacaoText{
-    position: relative;
-    top: -73px;
-    left: -120px;
-
-    font-size: 15px;
-}
-
-.doacaoText a {
-    color: white;
-    text-decoration: none;
-}
-
-.forum{
-    margin-left: 0px;
-    margin-right: 80px;
-
-    position: relative;
-    top: -50px;
-    justify-content: center;
-}
-
-
-
-
-.redeSocial{
-    position: relative;
-    top: 10px;
-    left: 50px;
-    
-    font-size: 15px;
-}
-
-.email {
-    position: relative;
-    top: -100px;
-    left: 480px;
-    
-    font-size: 15px;
-}
-
-.insta img{
-    height: 30px;
-    width: 30px;
-}
-
-.insta{
-    position: relative;
-    top: -20px;
-    left: 50px;
-}
-
-.insta a,
-.face a{
-    color: #1d062d;
-    font-size: 12px;
-}
-
-.face {
-    position: relative;
-    top: -60px;
-    left: 100px;
-}
-
-.face img{
-    height: 40px;
-    width: 45px;
-}
-
-.email{
-    position: relative;
-    top: -170px;
-}
-
-.linkEmail{
-    position: relative;
-    top: -190px;
-    left: 480px;
-
-    font-size: 13px;
-    color: #1d062d;
-}
-
-.voltaInicio {
-    position: absolute;
-    left: 740px;
-    top: 538px;
-}
-
-.voltaInicio img{
-    height: 15px;
-    width: 25px;
-}
-
-.voltaInicio a{
-    color: white;
-    text-decoration: none;
-
-    font-weight:lighter;
-    font-family: 'Secular One', sans-serif;
-    font-size: 13px;
-
-    position: absolute;
-    left: 30px;
-
-    width: 200px;
-}
-
-#formulario 
-{
-    background-color: #6709aa;
-    height: 210px;
+    background-color: #561188;
     width: 660px;
-
-    position: relative;
-    margin-left: 80px;
-    margin-top: 20px;
-    
-    
-}
-
-.parteTotal{
-    position: relative;
-
-    top: 5px;
-    left: 20px;
-}
-
-.parteTotal h3{
-    color: white;
-    margin: 0;
-
-}
-
-.parteTotal p{
-    position: absolute;
-    
-    top: 30px;
-    left: 300px;
-    width: 300px;
     color: white;
 
-    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
-.parteNome label{
-    color: white;
-    margin-right: 500px;
-    
+.contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
 }
 
-
-.parteNome input{
-    width: 250px;
-    margin-top: 05px;
+.contato form h2{
+    color: #20cfdf;
 }
-
-.parteMens label{
-    color: white;
-    margin-right: 350px;
-    margin-bottom: 20px;
-}
-
-.parteMens textarea{
-    margin-top: 05px;
-}
-
-
-
