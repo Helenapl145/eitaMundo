@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/arquivos/logo4.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,16 +31,14 @@
                     <button class="doacao">
                         <a href="#doacao">Doação</a>
                     </button>
-                    <button class="contato">
+                    <button class="contatos">
                         <a href="#rodape">Contatos</a>
                     </button>
                 </div>
 
                 <div class="usuario">
                     <a class="cadastro" href="/html/cadastro.html"> cadastrar </a>
-
-                    <img src="/arquivos/circulo.png" alt="Perfil" class="circuloPerfil">
-                    <label class="perfil"><a href="/html/perfil.html"> Entrar </a></label>
+                    <a class="entra" href="/html/perfil.html"> Entrar </a>
                 </div>
             </nav>
 
@@ -52,7 +50,7 @@
 
                 <h1>Nossa função</h1>
 
-                <p> <strong> Eita mundo </strong> te proporciona o gostinho do mundo a onde você tiver sem você precisar
+                <p> O <strong> Eita mundo </strong> te proporciona o gostinho do mundo a onde você tiver sem você precisar
                     ir até a seu lugar preferido para comer o que você gosta. </p>
 
                 <h2> É fácil demais ... </h2>
@@ -65,8 +63,6 @@
                 <img src="/arquivos/passo3.png" alt="Terceiro passo a passo">
                 <img src="/arquivos/passo4.png" alt="Quarto passo a passo">
             </div>
-
-            <button class="cadastre"><a href="/html/cadastro.html"> Se cadastre</a> </button>
 
 
             <section class="parteSecudaria">
@@ -89,10 +85,12 @@
 
                 <div class="parteDoacao">
                     <img src="/arquivos/fundoDoacao.png" alt="">
-                    <p>Além de receber uma caixa temática todo mês
-                        você pode ajudar instuições carente realizando
-                        doação a parte ou incluido na sua mensalidade.</p>
-                    <button> <a href="/html/doacao.html"> DOE </a> </button>
+                    <div class="content">
+                        <p>Além de receber uma caixa temática todo mês
+                            você pode ajudar instuições carente realizando
+                            doação a parte ou incluido na sua mensalidade.</p>
+                        <button> <a href="/html/doacao.html"> DOE </a> </button>
+                    </div>
                 </div>
 
             </section>
@@ -102,8 +100,6 @@
         <footer id="rodape">
 
             <div class="redes">
-                <h5>Nossas redes sociais</h5>
-
                 <div class="insta">
                     <a href="#"> <img src="/arquivos/logoInsta.png" alt="Logo do instagram"> </a>
                 </div>
@@ -115,34 +111,11 @@
          
 
             <div class="contato">
-                <h5 class="emailContato">Contato: <a href="#">helenapl145@gmail.com</a> </h5>
+                <a  class="emailContato" href="#">helenapl145@gmail.com</a>
                 
                 <p> &copy; Helena Lima </p>
             </div>
-            
-            
-
-            <div class="formulario" >
-
-                <form action="">
-                    <h4>Mande uma mensagem</h4>
-
-                    <div class="parteNome">
-                        <label for="">Seu nome:</label>
-                        <input type="text" name="inputNome" id="inputNome">
-                    </div>
-             
-                    
-                    <div class="parteMensa">
-                        <label for="">Escreva sua mensagem: </label>
-                        <textarea name="areaTexto" id="areaTexto" cols="32" rows="5"></textarea>
-                    </div>
-              
-                    <input class="botaoForm" type="button" value="Enviar">
-
-                </form>
-
-            </div>
+        
             
         </footer>
 
