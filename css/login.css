@@ -14,8 +14,12 @@ body {
 /*formulario*/
 
 .formLogin {
-    display: block;
+    display: flex;
     text-align: center;
+    width: 90%;
+    height: 123px;
+    margin: 8rem auto;
+   
 }
 
 .formConteu {
@@ -33,10 +37,10 @@ body {
     border-radius: 50px;
 }
 
-.voltaInicio {
-    position: absolute;
-    left: 820px;
-    top: 40px;
+.voltaInicio a{
+    margin-top: 11rem;
+    margin-left: 70rem;
+    cursor: pointer;
 }
 
 .voltaInicio img{
