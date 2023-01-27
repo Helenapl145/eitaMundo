@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eita Mundo</title>
+
+    <link rel="shortcut icon" href="/arquivos/logo4.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="/css/pag.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Secular+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        <div class="voltar">
+            <a href="/html/index.html"><img src="/arquivos/voltar.png" alt="Botão Voltar"></a>
+        </div>
+
+        <div class="datalhePlano">
+            <h1> Plano Padrão</h1>
+            <p >R$ 40,00/mês </p>
+        </div>
+        <section class="info">
+            <form action="">
+                <div>
+                    <label for="nomei">Nome</label>
+                    <input type="text" name="nomen" id="nomei" placeholder="nome completo">
+                </div>
+                <div>
+                    <label for="emaili">Email</label>
+                    <input type="email" name="emailn" id="emaili" placeholder="seu melhor email">
+                </div>
+            </form>
+        </section>
+
+        <ul class="formaPag" id="slider">
+            <li id="card" >
+                <p>Cartão </p>
+                <img src="/arquivos/cartao.png" alt="Cartão">
+            </li>
+
+            <li id="pix">
+                <p>Pix </p>
+                <img src="/arquivos/pix.png" alt="Pix">
+            </li>
+
+            <li id="formaBoleto">
+                <p>Boleto </p>
+                <img src="/arquivos/recibo.png" alt="Boleto">
+            </li>
+            
+        </ul>
+
+        <section id="formaCard">
+            <form action="" >
+                <div>
+                    <label for="cardi" id="cardText">Número do cartão</label>
+                    <p id="descricaoPix"></p>
+                    <input type="number" name="card" id="cardi"  placeholder="xxxx xxxx xxxx xxxx">
+                </div>
+                <div>
+                    <label for="cpfi" id="textCpf" >CPF</label>
+                    <input type="number" name="cpf" id="cpfi" placeholder="xxx.xxx.xxx-xx">
+                </div>
+                <div class="dados">
+                    <div>
+                        <label for="validadei" id="textValidade">Validade</label>
+                        <input type="date" name="validade" id="validadei">
+                    </div>
+                    <div>
+                        <label for="cvvi" id="textCvv">CVV</label>
+                        <input type="number" name="cvv" id="cvvi" placeholder="código de segurança">
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <input class="btnPag" type="button" value="Efetuar pagamento">
+    </main>
+
+    <script src="slider.js"></script>
+    
+</body>
+</html>

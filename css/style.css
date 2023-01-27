@@ -37,21 +37,15 @@ nav {
     width: 130px;
     height: 120px;
 
-    margin-left: 3rem;
+    margin-left: 1rem;
     margin-bottom: 10px;
     margin-top: 1rem;
 }
 
-
-
-.botoes a {
-    color: white;
-
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Ubuntu', sans-serif;
+nav .botoes{
+    display: flex;
+    flex-direction: row;
 }
-
 
 .botoes button {
     background-color: #561188;
@@ -61,10 +55,24 @@ nav {
 
     border-radius: 10px;
 
-    margin-left: 50px;
+    margin-left: 15px;
 
     transition: background .8s;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+
+.botoes a {
+    color: white;
+
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 
 
 .botoes button:hover{
@@ -82,8 +90,8 @@ nav {
     color: #561188;   
 
 
-    margin-right: 20px;
-
+    margin-right: 10px;
+    margin-left: 5px;
     font-size: 20px;
     font-weight: 500;
     font-family: 'Ubuntu', sans-serif;
@@ -350,5 +358,47 @@ footer a{
     width: 300px;
     margin-bottom: 0;
     margin-top: 0.5rem;
+}
+
+
+@media (max-width: 1000px){
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo{
+        height: 100px;
+        width: 100px;
+        margin-left: 0;
+    }
+
+    nav .botoes{
+        display: flex;
+        flex-direction: row;
+        gap: 1px;
+    }
+
+    .botoes button {
+        width: 100px;
+        height: 30px;
+        
+        margin-left: 0;
+
+      
+    }
+
+    .botoes a {
+        font-size: 15px;
+     
+    }
+
+    .usuario{
+        margin-right: 0;
+    }
+    
+    .cadastro{
+        font-size: 18px;
+    }
 }
 
