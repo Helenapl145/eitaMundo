@@ -203,42 +203,40 @@ nav .botoes{
 
 .partePlanos {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
 
     margin-top: 20px;
-
-    gap: 300px;
+    padding-inline: 1rem;
 }
+
 
 .partePlanos img{
     height: 500px;
 }
 
-.botaoPlanos{
+.plano{
     display: flex;
-    justify-content: center;
-
-    gap: 295px;
-
-    margin-top: 10px;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.botaoPlanos a{
-    color: white;
-    font-weight: 500;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.botaoPlanos button{
+.plano button{
     background-color: #731ab3;
     height: 40px;
     width: 290px;
 
-    border-radius: 10px;
+    border-radius: 8px;
 
     color: white;
     font-size: 20px;
     font-weight: lighter;
+}
+
+.plano button a{
+    color: white;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -247,7 +245,10 @@ nav .botoes{
 
 .parteDoacao{
     display: flex;
-     
+    flex-direction: row;
+    justify-content: space-around;
+   
+
 }
 
 .nomeDoacao{
@@ -256,36 +257,27 @@ nav .botoes{
 
 
 .parteDoacao img{
-    height: 500px;
-    width: 1000px;
-    margin-right: 6rem;
-    margin-left: 3rem;
+    height: 30rem;
+    width: 40rem;
+    
 }
 
 .content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 2rem;
-    content: 800px;
+    padding-right: 2rem;
 }
 
 .content p {
     margin-top: 150px;
-    width: 800px;
     font-size: 2rem;
     color: white;
-
+    max-width: 700px;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .content button{
-    margin-right: 50px;
-   
-
     background-color: #731ab3;
-    height: 40px;
-    width: 700px;
+    height: 2rem;
+    width: 100%;
 
     border-radius: 43px;
 
@@ -400,5 +392,91 @@ footer a{
     .cadastro{
         font-size: 18px;
     }
+
+    .intro{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .intro h1{
+        font-size: 3rem;
+    }
+
+    .intro p{
+        font-size: 1.2rem;
+        width: 500px;
+        
+    }
+
+    .intro h2{
+        font-size: 1.8rem;
+        margin-bottom: 0;
+    }
+
+    .passos{
+        margin: 0;
+        margin-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .passos img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .partePlanos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .partePlanos img{
+        height: 400px;
+        width: 300px;
+    }
+
+    .plano{
+        align-items: center;
+        gap: 15px;
+    }
+
+    .parteDoacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parteDoacao img{
+        width: 400px;
+        height: 300px;
+        margin: 0;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        margin-inline: 20px;
+        padding: 0;
+    }
+
+    .content p{
+        
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 0;
+        
+    }
+
+    .content button{
+      
+    }
+
+   
 }
 
