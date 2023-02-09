@@ -27,11 +27,11 @@ body{
 #content{
     background-color: #731ab3;
     width: 50%;
-    height: 80vh;
+    height: 80%;
 
     display: flex;
     margin: 5rem auto;
-    padding-top: 3rem;
+    padding-block: 3rem;
 
     gap: 3rem;
 
@@ -42,6 +42,7 @@ body{
 .nav-lateral{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-left: 2rem;
 
     gap: 1rem;
@@ -65,7 +66,7 @@ body{
 
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
 
     padding-top: 2rem;
     padding-inline: 1rem;
@@ -102,6 +103,7 @@ body{
     font-weight: bold;
 }
 
+
 .contato{
     margin-top: 7rem;
     padding: 2rem;
@@ -124,4 +126,226 @@ body{
 
 .contato form h2{
     color: #20cfdf;
+}
+
+
+
+
+@media  (max-width: 900px){
+   
+    #content{
+        display: flex;
+        flex-direction: column;
+        padding-block: 2rem;
+        gap: 1.4rem;
+    }
+
+    .nav-lateral{
+        padding: 0;
+    }
+
+    .foto-usuario img{
+        height: 180px;
+        width: 180px;
+    }
+
+    .info-usuario {
+        align-items: center;
+    }
+
+    .dados .btn{
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    .wraper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cartao img{
+        height: 100px;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 80%;
+        margin-top: 20px;
+        
+    
+    }
+
+    .contato h2{
+        font-size: 1rem;
+    }
+
+    textarea, input{
+        width: 150px;
+        display: block;
+    }
+
+    .contato p{
+        font-size: 0.8rem;
+        width: 78%;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1200px){
+   
+    #content{
+        display: flex;
+        flex-direction: column;
+        padding-block: 2rem;
+        gap: 1.4rem;
+    }
+
+    .nav-lateral{
+        padding: 0;
+    }
+
+    .foto-usuario img{
+        height: 180px;
+        width: 180px;
+    }
+
+    .info-usuario {
+        align-items: center;
+    }
+
+    .dados .btn{
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    .wraper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wraper .caixas{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .cartao img{
+        height: 120px;
+        width: 250px;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 80%;
+        margin-top: 20px;
+        
+    
+    }
+
+    .contato h2{
+        font-size: 1.3rem;
+    }
+
+    textarea, input{
+        width: 300px;
+        display: block;
+    }
+
+    .contato p{
+        font-size: 0.9rem;
+        width: 80%;
+        text-align: justify;
+    }
+}
+
+
+
+@media (min-width: 1200px ) and (max-width: 1900px){
+   
+    #content{
+        display: flex;
+        
+        padding-block: 2rem;
+        gap: 1rem;
+    }
+
+    .nav-lateral{
+        margin-top: 2rem;
+        gap: 3rem;
+    }
+
+
+    .foto-usuario img{
+        height: 180px;
+        width: 180px;
+    }
+
+    .info-usuario {
+        align-items: center;
+    }
+
+
+    .nav-lateral .dados{
+        padding-bottom: 32px;
+        gap: 1rem;
+      
+    }
+
+    .dados .btn{
+        margin-top: 0;
+    }
+
+    .wraper{
+        display: flex;
+        flex-direction: column;
+
+        gap: 0.5rem;
+    }
+
+    .wraper img{
+        height: 80px;
+        width: 150px;
+    }
+
+    .wraper .caixas{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .cartao img{
+        height: 120px;
+        width: 250px;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 80%;
+        margin-top: 20px;
+
+        padding: 1rem;
+
+    
+    }
+
+    
+    textarea, input{
+        width: 250px;
+        display: block;
+    }
+
+    .contato p{
+        font-size: 0.9rem;
+        
+        text-align: justify;
+    }
 }
