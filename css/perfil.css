@@ -30,12 +30,14 @@ body{
     height: 80%;
 
     display: flex;
-    margin: 5rem auto;
+    margin: 8rem auto;
     padding-block: 3rem;
 
     gap: 3rem;
 
     border-radius: 30px;
+
+    position: relative;
 
 }
 
@@ -53,6 +55,17 @@ body{
     border-radius: 20px;
     box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.514);
     width: 200px;
+}
+
+.voltar{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+}
+
+.voltar img{
+    height: 40px;
 }
 
 .dados{
@@ -151,6 +164,16 @@ body{
 
     .info-usuario {
         align-items: center;
+    }
+
+    .voltar{
+        right: 8px;
+        top: 8px;
+        
+    }
+
+    .voltar img{
+        height: 30px;
     }
 
     .dados .btn{

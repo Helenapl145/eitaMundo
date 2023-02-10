@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #efddfc;
+}
+
 section{
     background-color: #bc79ec;
-    width: 50%;
-    height: 90vh;
+    width: 30%;
+    height: 80vh;
     border-radius: 20px 20px 0 0;
 
     margin: 20px auto;
@@ -32,7 +36,7 @@ section{
 section h1{
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 600;
     color: #561188;
@@ -72,14 +76,15 @@ section h1{
     display: flex;
     align-items: center;
     justify-content: center;
-
+   
     
 }
 
 .btn button{
-    margin-top: 8rem;
+    margin-top: 4rem;
     width: 100%;
     height: 40px;
+    
     
     border: none;
     
@@ -106,9 +111,9 @@ section h1{
 footer{
     background-color: #d1aeeb;
     position: absolute;
-    bottom: 0px;
+    bottom: 90px;
     height: 80px;
-    width: 50%;
+    width: 30%;
 
     display: flex;
     flex-direction: column;
@@ -135,11 +140,29 @@ footer a{
 
 @media (max-height: 900px){
 
+    section{
+        width: 70%;
+    }
+
+    section h1{
+        margin: 0;
+    }
+
+    .formConteu{
+        padding: 10px;
+    }
+
     .formConteu div label{
         margin-top: 1rem;
     }
 
     .btn button{
         margin-top: 2rem;
+    }
+
+    footer{
+        width: 70%;
+        bottom: 40px;
+       
     }
 }
