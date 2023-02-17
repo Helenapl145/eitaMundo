@@ -30,7 +30,8 @@ body{
     height: 80%;
 
     display: flex;
-    margin: 8rem auto;
+    margin: 8
+    rem auto;
     padding-block: 3rem;
 
     gap: 3rem;
@@ -217,11 +218,18 @@ body{
     }
 }
 
+@media (min-width: 500px){
+    #content{
+        margin: 10px auto;
+    }
+}
+
 @media (min-width: 900px) and (max-width: 1200px){
    
     #content{
         display: flex;
         flex-direction: column;
+        margin: 10px auto;
         padding-block: 2rem;
         gap: 1.4rem;
     }

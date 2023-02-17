@@ -166,3 +166,9 @@ footer a{
        
     }
 }
+
+@media (min-height: 700px){
+    footer{
+        bottom: 90px;
+    }
+}
